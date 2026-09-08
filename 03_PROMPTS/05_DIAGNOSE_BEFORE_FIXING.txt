@@ -1,0 +1,15 @@
+Something is not working.
+
+Do not jump directly to a fix.
+
+First:
+1. restate the observed symptom;
+2. identify the last known-good state if available;
+3. separate evidence from assumptions;
+4. list the smallest plausible cause categories;
+5. give me the minimum read-only diagnostics that distinguish between them;
+6. explain what each diagnostic checks and what the possible outputs mean.
+
+Avoid reinstalling, resetting, deleting, mass-upgrading, disabling security, or changing multiple subsystems until evidence justifies it.
+
+After I provide results, update the hypothesis and propose the smallest justified change with rollback and verification.

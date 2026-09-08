@@ -1,0 +1,31 @@
+Perform a security review of the current project.
+
+Use the project requirements, architecture, security profile, current state, and test state.
+
+Review against the principles in this starter pack and the relevant current standards reference.
+
+At minimum examine:
+- authentication;
+- authorization/access control;
+- secrets;
+- input validation and injection;
+- output encoding/unsafe output handling;
+- cryptography and transport security;
+- security configuration/defaults;
+- dependency and supply-chain risk;
+- logging and alerting;
+- error/exception handling;
+- data protection/privacy;
+- backup/recovery;
+- update/vulnerability process;
+- AI/RAG prompt injection, retrieval poisoning, data leakage, excessive agency, and tool permissions if AI is involved.
+
+For every finding give:
+- severity;
+- evidence;
+- affected asset;
+- realistic failure/attack path;
+- recommended mitigation;
+- verification test.
+
+Separate confirmed findings from theoretical concerns.

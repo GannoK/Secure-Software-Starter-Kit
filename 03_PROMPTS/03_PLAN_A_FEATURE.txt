@@ -1,0 +1,20 @@
+Help me plan this feature before coding it.
+
+Feature:
+[DESCRIBE FEATURE]
+
+Retrieve only the project files relevant to this feature.
+
+Produce:
+1. requirement(s);
+2. user-visible behavior;
+3. affected components;
+4. data-flow changes;
+5. trust/security boundary changes;
+6. abuse cases and failure cases;
+7. implementation slices, smallest first;
+8. tests for each slice;
+9. rollback/recovery considerations;
+10. documentation that must change.
+
+Clearly label any architectural change that needs my decision. Do not silently redesign the system.

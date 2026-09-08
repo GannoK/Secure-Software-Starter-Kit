@@ -1,0 +1,25 @@
+Create a self-contained handoff for a new AI session or human collaborator.
+
+It must be usable without this chat.
+
+Include:
+- project/operation name;
+- objective;
+- governing rules;
+- accepted requirements and decisions;
+- verified current state;
+- documented prior evidence;
+- completed work;
+- repository/version/branch/commit information when relevant;
+- important files;
+- services/deployments when relevant;
+- tests and security checks;
+- unresolved questions;
+- blockers;
+- known risks;
+- prohibited actions;
+- work that must not be repeated;
+- exact next bounded action;
+- exact verification needed to prove that next action succeeds.
+
+Clearly distinguish VERIFIED, USER-PROVIDED, INFERENCE, and UNKNOWN.

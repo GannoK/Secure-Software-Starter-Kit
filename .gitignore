@@ -1,0 +1,10 @@
+# Editor / OS noise
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# Python verification artifacts
+__pycache__/
+*.py[cod]

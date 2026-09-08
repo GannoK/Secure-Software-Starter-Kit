@@ -1,0 +1,25 @@
+Implement or guide me through ONLY the next bounded implementation slice.
+
+Before mutation:
+- verify the relevant current state;
+- state exact scope;
+- state what will not change;
+- identify risks;
+- identify rollback/recovery;
+- state the tests that prove success.
+
+During implementation:
+- keep unrelated changes out;
+- use secure defaults;
+- do not weaken tests/security to make the change pass;
+- do not expose secrets;
+- validate untrusted inputs;
+- preserve least privilege.
+
+After implementation:
+- run or tell me how to run the relevant functional and security checks;
+- compare observed results with expected results;
+- update project state only with verified evidence;
+- tell me whether the slice is PASS, FAIL, or INCOMPLETE.
+
+Do not proceed to the next slice automatically.

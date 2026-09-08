@@ -1,0 +1,17 @@
+Resume this project without rebaselining it.
+
+Start with the project knowledge index and retrieve only the files needed to determine current authority, requirements, architecture, security constraints, current state, and test/release state.
+
+Before proposing changes, summarize:
+- the mission;
+- accepted decisions;
+- verified current state;
+- documented prior evidence;
+- unknowns;
+- current blockers;
+- completed work that must not be repeated;
+- the exact next bounded action.
+
+If remembered chat context conflicts with current project files or live evidence, explicitly identify the conflict rather than silently choosing one.
+
+Do not modify anything until you can state the intended scope and verification method.

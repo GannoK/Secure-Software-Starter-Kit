@@ -1,0 +1,27 @@
+Review this AI-generated code as if it came from an untrusted contributor.
+
+Do not assume it is correct because another AI produced it.
+
+Check:
+- whether it actually satisfies the requirement;
+- logic and edge cases;
+- authentication and authorization;
+- input validation;
+- injection;
+- unsafe file/path handling;
+- command execution;
+- secrets;
+- cryptography;
+- concurrency/race conditions;
+- error handling;
+- logging/privacy;
+- dependency choices;
+- unsafe defaults;
+- resource exhaustion;
+- tests that are missing;
+- rollback or migration risk;
+- maintainability.
+
+Identify package/library names that should be independently verified before installation.
+
+Separate blockers, important fixes, and optional improvements.

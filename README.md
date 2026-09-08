@@ -2,7 +2,7 @@
 
 A beginner-friendly framework for designing, building, testing, reviewing, and documenting secure software with AI assistance and modern engineering practices.
 
-**Current release:** Secure AI Software Starter Pack v1.1  
+**Current release:** Secure Software Starter Kit v1.1
 **Start here:** [`OPEN_THIS_FIRST.md`](OPEN_THIS_FIRST.md)
 
 This repository is intended for people who want the leverage of AI-assisted software development without treating an LLM as an unquestionable authority. No programming experience is required to begin.

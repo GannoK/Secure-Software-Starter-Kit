@@ -1,5 +1,20 @@
 # Changelog
 
+## v1.2.0 - 2026-09-08
+
+- Established a proprietary IP and licensing baseline for new and modified material going forward.
+- Preserved the exact v1.1 CC BY 4.0 boundary at `legacy/v1.1-cc-by-4.0`.
+- Replaced the active root CC license with a proprietary reservation-of-rights license that expressly preserves historical CC grants.
+- Added copyright, license-history, third-party-rights, contributor-IP, commercial-license, royalty/revenue-share, and AI-authorship governance files.
+- Removed automatic inbound CC licensing from the contribution policy.
+- Added owner review controls for legal/governance changes.
+- Updated package metadata, citation metadata, release-readiness record, and repository verification rules.
+- Preserved the secure software methodology, assurance profiles, security workflow, examples, and historical v1.1 handbook artifacts.
+
+### Important scope
+
+This transition does not revoke CC BY 4.0 rights validly granted for v1.1. Its purpose is to protect new and modified work going forward and establish explicit chain-of-title and commercial agreement controls.
+
 ## Repository publication - 2026-09-07
 
 - Published the v1.1 pack under the broader **Secure Software Starter Kit** repository identity.

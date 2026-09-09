@@ -1,23 +1,14 @@
-# Attribution
+# Attribution and Provenance
 
-The Secure Software Starter Kit is designed to be reused.
+The **Secure Software Starter Kit** was created by **Kyle Gannon (GannoK)**.
 
-When redistributing or adapting original material from this repository, please use an attribution reasonably similar to:
+Historical v1.1 distributions were released under **CC BY 4.0**. New and modified material in the v1.2.0+ line is distributed under the proprietary terms in `LICENSE` unless expressly stated otherwise.
 
-> **Secure Software Starter Kit** by **Kyle Gannon (GannoK)**, licensed under **CC BY 4.0**. Changes were made, if applicable.
+Historical CC rights are not revoked. See `LICENSE_HISTORY.md`.
 
-Include a link to this repository when practical:
-
+Repository:
 `https://github.com/GannoK/Secure-Software-Starter-Kit`
 
-And a link to the license:
+Third-party standards, trademarks, quotations, names, linked resources, software, and other external material remain subject to their respective rights.
 
-`https://creativecommons.org/licenses/by/4.0/`
-
-## What attribution does not mean
-
-Attribution does not imply that Kyle Gannon, GannoK, Guild Technology Solutions, or contributors endorse a modified version, derivative work, product, service, or organization.
-
-## Third-party material
-
-The license applies only to material the project has authority to license. Names of standards, trademarks, quotations, linked resources, and other identified third-party material remain subject to their own terms.
+Attribution does not imply endorsement by Kyle Gannon, GannoK, Guild Technology Solutions, or any contributor.

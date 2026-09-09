@@ -1,8 +1,8 @@
 {
   "name": "Secure AI Software Starter Pack",
-  "version": "1.1",
-  "date": "2026-09-06",
-  "status": "public-release",
+  "version": "1.2.0",
+  "date": "2026-09-08",
+  "status": "proprietary-baseline",
   "audience": "beginners and nontechnical software builders using AI assistants",
   "profiles": [
     "STARTER",
@@ -21,6 +21,12 @@
   ],
   "repository": "https://github.com/GannoK/Secure-Software-Starter-Kit",
   "repository_project_name": "Secure Software Starter Kit",
-  "license": "CC-BY-4.0",
+  "license": "Proprietary-All-Rights-Reserved",
+  "historical_license": {
+    "through_version": "1.1",
+    "license": "CC-BY-4.0",
+    "boundary_branch": "legacy/v1.1-cc-by-4.0",
+    "boundary_commit": "c6307cb2539ff908928474f4586ed33c2779956a"
+  },
   "creator": "Kyle Gannon (GannoK)"
 }

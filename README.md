@@ -2,8 +2,10 @@
 
 A beginner-friendly framework for designing, building, testing, reviewing, and documenting secure software with AI assistance and modern engineering practices.
 
-**Current release:** Secure Software Starter Kit v1.1
+**Current release:** Secure Software Starter Kit v1.2.0  
 **Start here:** [`OPEN_THIS_FIRST.md`](OPEN_THIS_FIRST.md)
+
+> **Licensing notice:** New and modified material in the v1.2.0+ line is distributed under the proprietary terms in `LICENSE`. Historical v1.1 material was released under CC BY 4.0, and those prior grants are not revoked. See `LICENSE_HISTORY.md`.
 
 This repository is intended for people who want the leverage of AI-assisted software development without treating an LLM as an unquestionable authority. No programming experience is required to begin.
 
@@ -42,7 +44,7 @@ This starter kit exists to give both the human and the AI something better than 
 - `08_EXAMPLES` - worked examples
 - `09_REFERENCE` - glossary, RAG principles, and standards map
 - `10_CHATGPT_SETUP` - ChatGPT-specific setup guidance
-- `11_HANDBOOK` - printable handbook
+- `11_HANDBOOK` - historical v1.1 printable handbook artifacts retained for provenance
 
 ## The core rule
 
@@ -65,7 +67,7 @@ See [`05_SECURITY/00_CHOOSE_YOUR_ASSURANCE_PROFILE.md`](05_SECURITY/00_CHOOSE_YO
 1. Read [`OPEN_THIS_FIRST.md`](OPEN_THIS_FIRST.md).
 2. Open [`00_QUICK_START/QUICK_START_ONE_PAGE.pdf`](00_QUICK_START/QUICK_START_ONE_PAGE.pdf).
 3. Read the beginner setup guide.
-4. Copy `02_PROJECT_KNOWLEDGE_TEMPLATE` into your own project.
+4. Copy `02_PROJECT_KNOWLEDGE_TEMPLATE` into your own project only if your license/authorization permits it.
 5. Choose an assurance profile.
 6. Start with the supplied project prompt.
 7. Build one small, bounded slice.
@@ -75,18 +77,18 @@ See [`05_SECURITY/00_CHOOSE_YOUR_ASSURANCE_PROFILE.md`](05_SECURITY/00_CHOOSE_YO
 
 This project does **not** guarantee that software produced with it is secure, safe, compliant, or production-ready. It is not a substitute for qualified security, legal, privacy, compliance, or safety expertise. Referenced standards remain authoritative over summaries in this repository.
 
-## License and attribution
+## License and ownership
 
-Except where otherwise noted, original content in this repository is licensed under the **Creative Commons Attribution 4.0 International License (CC BY 4.0)**.
+Copyright © 2026 Kyle Gannon. All Rights Reserved.
 
-You may copy, redistribute, adapt, and use the material commercially, provided you give appropriate credit, link to the license, and indicate if you made changes.
+Current v1.2.0+ new and modified project material is distributed under the proprietary terms in [`LICENSE`](LICENSE) unless expressly stated otherwise.
 
-Preferred attribution:
+The v1.1 public release was distributed under CC BY 4.0. Rights validly granted for that historical version remain effective; the proprietary transition does not rewrite that history. See [`LICENSE_HISTORY.md`](LICENSE_HISTORY.md).
 
-> Secure Software Starter Kit by Kyle Gannon (GannoK), licensed under CC BY 4.0.
-
-See [`LICENSE`](LICENSE) and [`ATTRIBUTION.md`](ATTRIBUTION.md).
+Third-party standards, trademarks, quotations, linked resources, and other external material remain subject to their respective rights. See [`THIRD_PARTY_NOTICES.md`](THIRD_PARTY_NOTICES.md).
 
 ## Contributing and security
 
-Contributions are welcome. Read [`CONTRIBUTING.md`](CONTRIBUTING.md) before submitting changes. For security-related reports, see [`SECURITY.md`](SECURITY.md).
+Substantive contributions intended to become project-owned IP require an appropriate signed contributor, employment, contractor, or IP-assignment agreement. A pull request by itself does not transfer ownership or create a royalty right.
+
+Read [`CONTRIBUTING.md`](CONTRIBUTING.md) and [`LEGAL/CONTRIBUTOR_POLICY.md`](LEGAL/CONTRIBUTOR_POLICY.md) before submitting changes. For security-related reports, see [`SECURITY.md`](SECURITY.md).

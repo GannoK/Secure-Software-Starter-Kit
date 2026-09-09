@@ -1,11 +1,11 @@
 cff-version: 1.2.0
-message: "If you use or adapt this project, please cite it as below."
+message: "If you are authorized to use or reference this project, cite the identified version and repository."
 title: "Secure Software Starter Kit"
-version: "1.1"
-date-released: 2026-09-07
+version: "1.2.0"
+date-released: 2026-09-08
 authors:
   - family-names: "Gannon"
     given-names: "Kyle"
     alias: "GannoK"
 repository-code: "https://github.com/GannoK/Secure-Software-Starter-Kit"
-license: "CC-BY-4.0"
+license-url: "https://github.com/GannoK/Secure-Software-Starter-Kit/blob/main/LICENSE"

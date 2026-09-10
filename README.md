@@ -29,6 +29,36 @@ Secure software comes from a process: understanding threats, defining trust boun
 
 This starter kit exists to give both the human and the AI something better than "please make it secure": project knowledge, procedures, checklists, evidence requirements, security guidance, and explicit rules for deciding whether a result actually passed.
 
+## Standards and methodology foundations
+
+This kit is not a collection of invented "AI best practices." It translates established software-security, systems-engineering, architecture, assurance, and supply-chain practices into a workflow that beginners can actually use with AI.
+
+Representative foundations include:
+
+- **NIST Secure Software Development Framework (SSDF), SP 800-218** — secure practices integrated across the software-development lifecycle.
+- **OWASP ASVS, OWASP Top 10, and OWASP SAMM** — application-security verification requirements, common risk awareness, and software-assurance maturity practices.
+- **CISA Secure by Design** — security as a product-quality responsibility, secure defaults, and manufacturer ownership of security outcomes.
+- **OpenSSF OSPS Baseline and Scorecard** — concrete open-source project security controls and automated security-practice signals.
+- **SLSA, SPDX, and CycloneDX** — software-supply-chain integrity, provenance, SBOMs, and dependency transparency.
+- **OWASP GenAI Security Project** — risks specific to AI, RAG, and agentic systems, including prompt injection, poisoning, excessive agency, and improper output handling.
+- **ISO/IEC/IEEE 15288 and 42010** — systems life-cycle and architecture-description concepts such as stakeholders, concerns, viewpoints, requirements, and traceability.
+- **ISO/IEC 25010 and the ISO/IEC/IEEE 15026 family** — software quality characteristics and assurance concepts.
+- **NASA and INCOSE systems-engineering guidance** — staged engineering, requirements discipline, risk-informed decisions, verification, and evidence-based gates.
+- **Carnegie Mellon SEI architecture methods** such as QAW, ADD, ATAM, SAAM, and CBAM — explicit quality attributes, architectural tradeoffs, and evidence-based architecture review.
+- **Architecture Decision Records, sensitivity analysis, trade studies, and evolutionary architecture** — recording why decisions were made, testing assumptions, and preferring reversible change where possible.
+
+The kit uses these sources as **reference points and intellectual foundations**, not as a claim of automatic compliance or certification. When a referenced standard applies to a project, the authoritative standard remains authoritative over any summary in this repository.
+
+The practical design rule is:
+
+> **ADOPT → PROFILE → EXTEND → BUILD**
+>
+> Adopt a mature method when it already fits. Profile it to the project and risk. Extend only where a material requirement is missing. Build a bespoke method only when mature approaches cannot satisfy a necessary property.
+
+That is why the kit emphasizes evidence, provenance, explicit requirements, threat modeling, proportional rigor, verification, traceability, rollback, and accountable human decision-making rather than asking an LLM to "make it secure."
+
+See [`09_REFERENCE/02_STANDARDS_REFERENCE.md`](09_REFERENCE/02_STANDARDS_REFERENCE.md) and [`09_REFERENCE/03_WHICH_STANDARD_DO_I_NEED.md`](09_REFERENCE/03_WHICH_STANDARD_DO_I_NEED.md) for the working standards map.
+
 ## What is in the kit?
 
 - `00_QUICK_START` - one-page visual guide

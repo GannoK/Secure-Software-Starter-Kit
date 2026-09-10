@@ -7,6 +7,20 @@ A beginner-friendly framework for designing, building, testing, reviewing, and d
 
 This repository is intended for people who want the leverage of AI-assisted software development without treating an LLM as an unquestionable authority. No programming experience is required to begin.
 
+## I want you to break this
+
+This project improves when people challenge it. If you work in software engineering, application security, systems engineering, DevSecOps, open-source security, architecture, assurance, or adjacent fields, I would especially value critical review.
+
+Please look for things such as:
+
+- Where is the methodology wrong, incomplete, or misleading?
+- What established standard, engineering method, or security practice is misrepresented or missing?
+- What guidance could be dangerous, confusing, or overconfident for a beginner?
+- What works for a small project but fails to scale to real professional engineering work?
+- What sounds rigorous but could still create false confidence?
+
+Concrete criticism is more useful than praise. If possible, explain the failure mode, point to authoritative evidence, and suggest how the kit could be tested or improved. Issues and pull requests are welcome under the repository's contribution rules.
+
 ## Security is not a magic phrase
 
 Building secure software is a little like performing an exorcism.

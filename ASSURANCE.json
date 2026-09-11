@@ -1,0 +1,61 @@
+{
+  "$schema": "schemas/assurance.schema.json",
+  "format_version": "1.0",
+  "project": "Secure-Software-Starter-Kit",
+  "project_type": "secure-software-starter-kit",
+  "assurance_profile": "secure-software-baseline",
+  "result_states": [
+    "PASS",
+    "FAIL",
+    "MANUAL",
+    "N/A",
+    "UNKNOWN",
+    "WAIVED"
+  ],
+  "required_checks": [
+    "repository_manifest_integrity",
+    "local_link_integrity",
+    "pinned_github_actions",
+    "least_privilege_workflow_permissions",
+    "code_scanning",
+    "openssf_readiness",
+    "release_provenance",
+    "governance_presence",
+    "security_exception_expiry"
+  ],
+  "standards_profiles": [
+    {
+      "name": "OpenSSF Best Practices",
+      "status": "mapped"
+    },
+    {
+      "name": "OpenSSF Scorecard",
+      "status": "automated"
+    },
+    {
+      "name": "NIST SSDF SP 800-218",
+      "status": "mapped"
+    },
+    {
+      "name": "SLSA 1.2",
+      "status": "profiled"
+    },
+    {
+      "name": "CISA Secure by Design",
+      "status": "mapped"
+    }
+  ],
+  "manual_controls": [
+    "threat_model_quality",
+    "cryptographic_design_review",
+    "security_test_coverage",
+    "two_person_review_where_required",
+    "vulnerability_response_performance"
+  ],
+  "release_requirements": {
+    "automated_failures_allowed": 0,
+    "unknown_requires_review": true,
+    "waivers_require_expiration": true,
+    "provenance_required_for_tagged_release": true
+  }
+}

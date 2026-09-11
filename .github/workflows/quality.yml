@@ -20,3 +20,9 @@ jobs:
 
       - name: Verify repository structure and integrity
         run: python tools/verify_repository.py
+
+      - name: Run OpenSSF readiness audit
+        run: python tools/openssf_readiness.py
+
+      - name: Run assurance regression tests
+        run: python -m unittest discover -s tests -v

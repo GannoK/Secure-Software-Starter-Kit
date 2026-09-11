@@ -1,0 +1,19 @@
+{
+  "control_id": "CTRL-001",
+  "requirement": "",
+  "status": "UNKNOWN",
+  "allowed_statuses": [
+    "PASS",
+    "FAIL",
+    "MANUAL",
+    "N/A",
+    "UNKNOWN",
+    "WAIVED"
+  ],
+  "owner": "",
+  "evidence": [],
+  "verification_command": "",
+  "last_verified_at": "",
+  "exception_id": "",
+  "notes": ""
+}

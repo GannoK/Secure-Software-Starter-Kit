@@ -1,0 +1,11 @@
+# Default ownership
+* @GannoK
+
+# Security and assurance guidance
+/05_SECURITY/ @GannoK
+/06_TEMPLATES/ @GannoK
+/09_REFERENCE/ @GannoK
+/SECURITY.md @GannoK
+/ASSURANCE.json @GannoK
+/.github/workflows/ @GannoK
+/tools/ @GannoK
